@@ -76,10 +76,9 @@ Yuchun Miao, Sen Zhang, Liang Ding, <b>Rong Bao</b>, Lefei Zhang, Dacheng Tao <b
     Supervised by <a href="https://scholar.google.com/citations?user=XfqR3yYAAAAJ&hl=en" target="_blank">Qi Zhang</a>.
 
 # 💻 Internships
-- *2023.04 - 2024.03*, Shanghai AI Lab, Shanghai.
-- *2024.07 - 2025.01*, [Tongyi Lab](https://tongyi.aliyun.com/), Beijing.
 - *2025.02 - 2026.02*, [Inclusion AI](https://inclusionai.github.io/zh/blog/), Hangzhou.
-
+- *2024.07 - 2025.01*, [Tongyi Lab](https://tongyi.aliyun.com/), Beijing.
+- *2023.04 - 2024.03*, Shanghai AI Lab, Shanghai.
 
 <hr style="margin-top: 3em;">
 <div id="footer" style="text-align: center; font-size: 0.9em; color: #666;">
