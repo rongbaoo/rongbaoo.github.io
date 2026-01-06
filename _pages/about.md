@@ -16,41 +16,73 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
+I am currently pursuing my Ph.D. degree in the Joint Training Program between Fudan University (FDU) and Shanghai AI Laboratory, under the supervision of [Prof. Dacheng Tao](https://scholar.google.com/citations?user=RwlJNLcAAAAJ&hl=en), and I expect to graduate in 2027. Prior to this, I completed my undergraduate studies in the Department of Computer Science and Technology at Fudan University, where I graduated and obtained my Bachelor’s degree in 2022 under the guidance of [Prof. Qi Zhang](https://scholar.google.com/citations?user=XfqR3yYAAAAJ&hl=en). I sincerely appreciate the invaluable guidance, support, and inspiration that all my mentors have provided throughout my academic journey.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I have authored or co-authored more than ten papers published in top-tier international journals and conferences, including IEEE TPAMI, ICML, NeurIPS, ICLR and ACL. My current research interests focus on reinforcement learning (RL) for generative large language models (LLMs), specifically including reinforcement learning from human feedback (RLHF), reasoning RL, and agentic RL. My earlier research mainly centered on the inference robustness of discriminative language models.
+
+📧 I am open to collaboration and welcome inquiries from anyone interested in my research topics. Feel free to reach out via <font color="#0D4884"> rbao2018@outlook.com </font> or <font color="#0D4884"> rbao22@m.fudan.edu.cn</font>.
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.11*: &nbsp;🎉🎉 One paper has been accepted by AAAI 2026.
+- *2025.09*: &nbsp;🎉🎉 One paper has been accepted by NeurIPS 2025.
+- *2025.05*: &nbsp;🎉🎉 One paper has been accepted by ACL 2025.
+- *2025.01*: &nbsp;🎉🎉 One paper has been accepted by ICLR 2025.
+- *2024.09*: &nbsp;🎉🎉 One paper has been accepted by NeurIPS 2024.
+- *2023.05*: &nbsp;🎉🎉 One paper has been accepted by ACL 2023.
+- *2022.05*: &nbsp;🎉🎉 One paper has been accepted by ACL 2022.
 
-# 📝 Publications 
+# 📝 Selected Publications
+†: equal contribution, * : corresponding author
+<h3>Conference Papers</h3> 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+- <font color="#0D4884"> Time-Frequency Token Advantage Clipping for Training Efficient Large Reasoning Model </font>
+<b>Rong Bao</b>, Bo Wang, Xiao Wang, Hongyu Li, Rui Zheng, Qi Zhang, Liang Ding, Dacheng Tao <br>
+<i>Association for the Advancement of Artificial Intelligence (<b>AAAI</b>), 2026</i><br>
+[<a href="https://icml.cc/virtual/2025/poster/46294">Paper</a>][<a href="https://github.com/rbao2018/TFAC">Code</a>]
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+- <font color="#0D4884"> Implicit Reward as the Bridge: A Unified View of SFT and DPO Connections </font>
+Bo Wang, Qinyuan Cheng, Runyu Peng, <b>Rong Bao</b>, Peiji Li, Qipeng Guo, Linyang Li, Zhiyuan Zeng, Yunhua Zhou, Xipeng Qiu <br>
+<i>Conference on Neural Information Processing System (<b>NeurIPS</b>), 2025</i><br>
+[<a href="https://arxiv.org/pdf/2507.00018">Paper</a>][<a href="https://github.com/rbao2018/SCOP">Code</a>]
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+- <font color="#0D4884"> Fixing Distribution Shifts of LLM Self-Critique via On-Policy Self-Play Training </font>
+<b>Rong Bao</b>, Donglei Yu, Kai Fan, Minpeng Liao <br>
+<i>Association for Computational Linguistics (<b>ACL</b>), 2025</i><br>
+[<a href="https://aclanthology.org/2025.acl-long.865.pdf">Paper</a>][<a href="https://github.com/rbao2018/SCOP">Code</a>]
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+- <font color="#0D4884"> InfoRM: Mitigating Reward Hacking in RLHF via Information-Theoretic Reward Modeling  </font>
+Yuchun Miao, Sen Zhang, Liang Ding, <b>Rong Bao</b>, Lefei Zhang, Dacheng Tao <br>
+<i>Conference on Neural Information Processing System (<b>NeurIPS</b>), 2024</i><br>
+[<a href="https://nips.cc/virtual/2024/poster/96739">Paper</a>][<a href="https://github.com/miaoyuchun/InfoRM">Code</a>]
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- <font color="#0D4884"> CASN: Class-Aware Score Network for Textual Adversarial Detection </font>
+<b>Rong Bao</b>, Rui Zheng, Liang Ding, Qi Zhang, Dacheng Tao<br>
+<i>Association for Computational Linguistics (<b>ACL</b>), 2023</i><br>
+[<a href="https://aclanthology.org/2023.acl-long.40.pdf">Paper</a>][<a href="https://github.com/rbao2018/CASN">Code</a>]
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- Huawei Annual Scholarship, College of Computer Science and Artificial Intelligence, 2025 June <br>
+    (华为年度奖学金, <b><font color="red">Top 5% in Fudan University</font></b>)
+- Outstanding Bachelor Graduate of Fudan University, 2022 June <br>
+    (复旦大学优秀毕业生, <b><font color="red">Top 30% in Fudan University</font></b>)
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+-  <b>Fudan University</b>, September 2022 -- Present<br>
+    Ph.D. Candidate in the College of Computer Science and Artificial Intelligence, Shanghai, China.<br>
+    Supervised by <a href="https://scholar.google.com/citations?user=RwlJNLcAAAAJ&hl=en" target="_blank">Dacheng Tao</a>.
+- <b>Fudan University</b>, September 2018 -- July 2022<br>
+    Undergraduate Student in the College of Computer Science and Artificial Intelligence, Shanghai, China.<br>
+    Supervised by <a href="https://scholar.google.com/citations?user=XfqR3yYAAAAJ&hl=en" target="_blank">Qi Zhang</a>.
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2023.04 - 2024.03*, Shanghai AI Lab, Shanghai.
+- *2024.07 - 2025.01*, [Tongyi Lab](https://tongyi.aliyun.com/), Beijing.
+- *2025.02 - 2026.02*, [Inclusion AI](https://inclusionai.github.io/zh/blog/), Hangzhou.
+
+
+<hr style="margin-top: 3em;">
+<div id="footer" style="text-align: center; font-size: 0.9em; color: #666;">
+  <div id="footer-text"></div>
+
+  &copy; 2026 Rong Bao<br><br>
